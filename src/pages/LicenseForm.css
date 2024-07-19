@@ -1,0 +1,93 @@
+/* LicenseInfoPage.css */
+
+.license-info-page {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.license-info-page h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.license-details, .faqs, .license-application {
+  margin-bottom: 20px;
+}
+
+.license-details h2, .faqs h2, .license-application h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.license-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.license-card h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.license-card p {
+  margin: 5px 0;
+}
+
+.faq {
+  margin: 10px 0;
+}
+
+.faq p {
+  margin: 5px 0;
+}
+
+.license-application {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.license-application form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+  display: block;
+}
+
+.form-group input, .form-group select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.submit-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}

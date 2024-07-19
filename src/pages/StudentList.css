@@ -1,0 +1,33 @@
+.students-list {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .students-list h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .students-list table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .students-list th, .students-list td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .students-list th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .students-list tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .students-list tr:hover {
+    background-color: #ddd;
+  }
